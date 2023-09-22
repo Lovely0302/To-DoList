@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: bisque;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.line {
+  width: 50%;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+
+.line-full {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+
+/*  */
+.taskList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.active-tasks,
+.completed-tasks {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 48%;
+  box-sizing: border-box;
+  background-color: lightgreen;
+}
+
+.task-list {
+  padding: 0;
+  list-style: none;
+}
+
+/*  */
+/* Стили для li.task */
+li.task {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  background-color: rgba(202, 255, 202, 0.806); /* Цвет фона для задач */
+}
+
+li.task.completed {
+  text-decoration: line-through;
+}
+
+
+.task.completed {
+  text-decoration: line-through;
+}
+
+.task.highlighted {
+  background-color: #f0f0f0;
+}
+
+.task button {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.action-panel .buttons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 10px;
+}
+
+.action-panel button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #007bff; 
+  color: #fff;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.action-panel button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Стили для ввода */
+.input {
+  display: block;
+  margin: 0 auto; 
+  width: 80%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+/* стилизация при нажатии кнопок */
+.even {
+  background-color: rgb(27, 124, 156); 
+}
+
+.odd {
+  background-color: rgb(236, 156, 156); 
+}
+
+

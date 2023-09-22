@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles2.css">
+  <title>Task Manager</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>To-Do-List</h1>
+    <hr class="line" />
+  </div>
+
+  <div class="taskList">
+    <div class="active-tasks">
+      <h3>Незавершенные задачи</h3>
+      <hr class="line-full" />
+
+      <ul id="incompleteTaskList" class="task-list">
+        <!-- Сюда будут добавляться незавершенные задачи -->
+      </ul>
+    </div>
+
+    <div class="completed-tasks">
+      <h3>Завершенные задачи</h3>
+      <hr class="line-full" />
+
+      <ul id="completedTaskList" class="task-list">
+        <!-- Сюда будут добавляться завершенные задачи -->
+      </ul>
+    </div>
+  </div>
+
+  <div class="action-panel">
+    <hr class="line" />
+
+    <div class="buttons">
+      <button class="delFirstTask">Удалить первый</button>
+      <button class="delLastTask">Удалить последний</button>
+      <button class="styleEven">Выделить чётные</button>
+      <button class="styleOdd">Выделить нечётные</button>
+    </div>
+  </div>
+
+  <div class="user-input">
+    <hr class="line" />
+
+    <input type="text" class="input" placeholder="Ввод новой задачи" />
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+
+</html>
